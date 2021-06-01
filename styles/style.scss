@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+$poppins : 'Poppins', sans-serif;
+
+:focus {
+  outline: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $poppins;
+}
+
+@import './ph/nav';
+@import './ph/home';
+@import './ph/about';
+@import './ph/services';
+@import './ph/products';
+@import './ph/contact';
+
+@import './hk/home';
+@import './hk/about';
+@import './hk/projects';

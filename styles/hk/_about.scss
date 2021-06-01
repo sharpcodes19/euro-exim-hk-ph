@@ -1,0 +1,34 @@
+.hk-about {
+  .wrapper {
+    max-width: 992px !important;
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+      ul {
+        margin-top: 100px;
+      }
+      img {
+        width: 100%;
+        max-width: 480px;
+        height: auto;
+      }
+    }
+    li,
+    p {
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (min-width: 850px) {
+    .wrapper {
+      .content {
+        ul {
+          max-width: 360px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.hk-home {
+  &::before {
+    background: url(../assets/hk/BackgroundImage.84a54a00.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  &::after {
+    background: url(../assets/hk/Logo.a30fd505.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

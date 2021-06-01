@@ -1,0 +1,83 @@
+.hk-projects {
+  .wrapper {
+    padding-top: 150px;
+    max-width: 768px;
+    margin: 0 auto;
+    .title {
+      h1 {
+        font-size: 32px;
+        color: rgb(46, 63, 94);
+        text-align: center;
+        margin-bottom: 50px;
+      }
+    }
+    .carousel {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      .prev,
+      .next {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        background: transparent;
+        border: none;
+        z-index: 5;
+        padding: 10px;
+      }
+      .prev {
+        left: 0;
+        text-align: left;
+      }
+      .next {
+        right: 0;
+        text-align: right;
+      }
+      &-items {
+        position: relative;
+        z-index: 2;
+        .item {
+          text-align: center;
+          width: 280px;
+          display: none;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          h4 {
+            margin-bottom: 10px;
+          }
+          img {
+            margin-bottom: 15px;
+          }
+          &.show {
+            display: flex;
+          }
+          ul {
+            li {
+              font-size: 11px;
+              margin-bottom: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 850px) {
+    .wrapper {
+      .carousel {
+        &-items {
+          .item {
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+            .content {
+              max-width: 520px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
