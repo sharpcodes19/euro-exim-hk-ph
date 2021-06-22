@@ -791,4 +791,50 @@ nav button i {
     max-width: 520px;
   }
 }
+
+.under-construction {
+  min-height: 100vh;
+  width: 100%;
+  background: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.under-construction h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #c7a036;
+}
+
+.under-construction h3 {
+  font-size: 23x;
+  color: #eee;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.under-construction p {
+  color: #eee;
+  font-style: italic;
+  margin-bottom: 5rem;
+}
+
+.under-construction a {
+  color: #c7a036;
+  text-decoration: underline;
+  font-size: 13px;
+}
 /*# sourceMappingURL=style.css.map */
