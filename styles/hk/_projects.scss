@@ -44,6 +44,11 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          &.large {
+            img {
+              width: 230px;
+            }
+          }
           h4 {
             margin-bottom: 10px;
           }

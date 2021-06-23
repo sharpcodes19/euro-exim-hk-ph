@@ -756,6 +756,10 @@ nav button i {
           justify-content: center;
 }
 
+.hk-projects .wrapper .carousel-items .item.large img {
+  width: 230px;
+}
+
 .hk-projects .wrapper .carousel-items .item h4 {
   margin-bottom: 10px;
 }
